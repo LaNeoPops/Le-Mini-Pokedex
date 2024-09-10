@@ -1,0 +1,65 @@
+/* POLICE */
+
+@font-face {
+    font-family: 'Pokemon';
+    src: url(../Police/Pokemon_Solid.ttf);
+}
+
+/* CORPS PRINCIPAL */
+
+body {
+    background-color: #171616;
+}
+
+main > div{
+    background-color: #363434;
+}
+
+h1 {
+    font-family: 'Pokemon';
+    color: red;
+    text-shadow: 2px 0 0 rgb(255, 255, 255), 2px 2px 0 rgb(255, 255, 255), 0 2px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 255, 255), -2px 0 0 rgb(255, 255, 255), -2px -2px 0 rgb(255, 255, 255), 0 -2px 0 rgb(255, 255, 255), 2px -2px 0 rgb(255, 255, 255);
+}
+
+p {
+    color: white;
+}
+
+/* CORPS SECONDAIRE */
+
+#pokemon-info {
+    text-align: center;
+    padding: 20px;
+    display: none; /* Changed from visibility to display */
+}
+
+#pokemon-info h2 {
+    font-family: 'Pokemon';
+    margin: 0;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(17, 119, 105);
+    text-shadow: 2px 0 0 rgb(255, 255, 255), 2px 2px 0 rgb(255, 255, 255), 0 2px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 255, 255), -2px 0 0 rgb(255, 255, 255), -2px -2px 0 rgb(255, 255, 255), 0 -2px 0 rgb(255, 255, 255), 2px -2px 0 rgb(255, 255, 255);
+}
+
+#pokemon-info .capture-rate {
+    background-color:rgb(17, 119, 105);
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#pokemon-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+#pokemon-info img {
+    max-width: 100%;
+    height: auto; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

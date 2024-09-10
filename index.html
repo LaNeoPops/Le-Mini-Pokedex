@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Le Mini Pokédex</title>
+</head>
+
+<body class="container">
+
+    <!-- TITRE -->
+
+    <header class="text-center p-4">
+        <h1>Le Mini Pokédex</h1>
+    </header>
+
+    <main>
+
+        <!-- BARRE DE CHOIX DU POKEMON -->
+
+        <div class="d-flex justify-content-between p-3 my-2">
+            <p>ID du Pokémon (de 1 à 893) : </p>
+            <input class="bg-danger" type="number" id="pokemon-id" min="1" max="893">
+            <button id="search-button" class="btn btn-danger">Chercher</button>
+        </div>
+
+        <!-- CONTAINER POKEMON CHOISI -->
+
+        <div id="pokemon-info"></div>
+    </main>
+
+
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
